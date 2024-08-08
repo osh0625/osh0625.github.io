@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script defer src="./js/script.js"></script>
+    <script type="module" defer src="./js/profile.js"></script>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/profile.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_contents">
+        <div class="left">
+          <div class="icon">
+            <i class="bx bxs-camera"></i>
+          </div>
+          <div class="title">Gallery</div>
+        </div>
+        <div class="right">
+          <a href="/">
+            <div class="icon">
+              <i class="bx bxs-home"></i>
+            </div>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search-alt-2"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main_contents">
+        <div class="profile">
+          <div class="profile_image">
+            <img src="./image/DSC07674.jpg" alt="" />
+          </div>
+          <div class="profile_description">
+            <div class="name">오상혁</div>
+            <div class="introduce">
+              안녕하세요! <br />
+              저는 20살 오상혁이라고 합니다!<br />
+              잘부탁드려요!
+            </div>
+          </div>
+        </div>
+
+        <div class="picture_list">
+          <!-- <div class="picture">
+            <img src="./image/sanghyuk_profile.jpg" alt="" />
+            <div class="description">
+              <div></div>
+              <div class="title">title</div>
+              <div class="subtitle">subtitle</div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </main>
+
+    <div class="modal hidden">
+      <div class="modal_contents">
+        <div class="modal_picture">
+          <img src="./image/sanghyuk_profile.jpg" alt="" />
+        </div>
+        <div class="modal_description">
+          <div class="modal_title">title</div>
+          <div class="modal_subtitle">subtitle</div>
+        </div>
+      </div>
+      <div class="btn"></div>
+    </div>
+  </body>
+</html>
